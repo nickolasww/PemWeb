@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile{ 
+    width: 30%;
+    margin: 0 0 0 100px;
+
+}
+
+.container{ 
+    display: flex;
+    margin: 100px 0 0 100px;
+    width: 80%
+}
+
+.profileInfo{ 
+    font: 'Poppins', sans-serif;
+    color: #494949;
+    padding: 40px 0 0 0;
+    font-size: 20px;
+}
+
+#Message{ 
+    font: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+#Desc{ 
+    color: grey;
+}
+
+#Name{ 
+    padding: 0 0
+}
+
+
+/* About page  */
+.AboutContainer{ 
+    display: flex ; 
+}
+
+.AboutImage{ 
+    width:;
+}
+
+.Maincontent{ 
+    width:  ;
+}
