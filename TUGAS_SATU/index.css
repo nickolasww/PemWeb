@@ -1,11 +1,30 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0; 
 }
 
 .profile{ 
-    width: 30%;
-    margin: 0 0 0 100px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 2;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 
+}
+
+.Label{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #ff4d4d;
+    z-index: 1;
 }
 
 .container{ 
@@ -28,6 +47,7 @@ body{
 
 #Desc{ 
     color: grey;
+    width: 70%;
 }
 
 #Name{ 
@@ -36,14 +56,54 @@ body{
 
 
 /* About page  */
-.AboutContainer{ 
-    display: flex ; 
+.about-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background: white;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
-.AboutImage{ 
-    width:;
+.image-section {
+    flex: 1;
+    position: relative;
+    background-image: url('AboutImg.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
 }
 
-.Maincontent{ 
-    width:  ;
+.content-section {
+    flex: 1;
+    padding: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.AboutTitle {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.AboutText {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    width: 85%; 
+}
+
+.decorative-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #ff4d4d;
+    z-index: 1;
 }
